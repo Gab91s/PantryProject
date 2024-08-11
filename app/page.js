@@ -1,11 +1,11 @@
 'use client'
-import Image from "next/image";
+//import Image from "next/image";
 import { firestore } from "@/firebase";
 import { useState, useEffect } from "react";
 import { deleteDoc, collection, getDocs, query, setDoc, getDoc, doc } from "firebase/firestore";
 import { Box, Stack, Typography, Modal, TextField, Button, style } from '@mui/material';
 
-document.body.style.background = "#eaeded";
+//document.body.style.background = "#eaeded";
 export default function Home() {
   const [inventory, setInventory] = useState ([])
   const [open, setOpen] = useState (false)
